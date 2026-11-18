@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#1c261e"><title>Alder Reach · A woodland field game</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2324322a'/%3E%3Cpath d='m5 24 11-19 11 19-9-5-4 3z' fill='%23dcd9ae'/%3E%3C/svg%3E"></head>
+<body>
+<canvas id="world" aria-label="Three-dimensional woodland"></canvas>
+<div id="front">
+  <header><svg viewBox="0 0 48 27" aria-hidden="true"><path d="M2 24 18 3l10 14 6-8 12 15M11 13l7-1 4 4" /></svg><span>ALDER REACH</span></header>
+  <main id="cover">
+    <div class="eyebrow"><i></i> FIELD STUDY &nbsp; / &nbsp; 01</div>
+    <h1>Alder Reach</h1>
+    <p class="subtitle">A woodland field game</p>
+    <div class="startrow"><button id="enter" class="entry" disabled><span id="entryText">Preparing woodland</span><span aria-hidden="true">↗</span></button><button id="guideLink" class="textbutton">Field guide</button></div>
+  </main>
+  <aside id="stamp"><span class="micro">ALPINE WATERSHED</span><span>Birchwood Trail</span><span class="fine">Late summer &nbsp; / &nbsp; Golden hour</span></aside>
+</div>
+<section id="book" hidden aria-label="Field guide">
+  <header><div class="eyebrow">ALDER REACH &nbsp; / &nbsp; FIELD GUIDE</div><button id="closeGuide" aria-label="Close field guide">×</button></header>
+  <h2>Field guide</h2>
+  <nav id="tabs" aria-label="Guide sections"><button data-tab="controls" aria-selected="true">Controls</button><button data-tab="landmarks">Landmarks</button><button data-tab="notes">Field notes</button></nav>
+  <div id="page"></div>
+</section>
+<div id="hud" hidden>
+  <div id="compass"><span id="bearing"></span><i></i></div>
+  <div id="centerDot"></div><div id="hint"></div><div id="notice" role="status"></div>
+  <div class="bottomLeft"><div class="micro">ALDER REACH</div><div id="place">Birchwood Trail</div></div>
+  <div class="bottomRight"><div class="tools"><button data-tool="bow"><kbd>1</kbd>Bow</button><button data-tool="axe"><kbd>2</kbd>Axe</button><button data-tool="rod"><kbd>3</kbd>Rod</button></div><div class="keyhelp"><kbd>G</kbd> Field guide &nbsp; <kbd>H</kbd> Hide HUD</div></div>
+  <div id="meter" hidden><span id="meterLabel"></span><div><b id="meterFill"></b></div></div>
+</div>
+<div id="fatal" hidden></div>
+<script type="module" src="/src/main.js"></script></body></html>

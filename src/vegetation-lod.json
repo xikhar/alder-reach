@@ -1,0 +1,12 @@
+{
+  "treeDetail": [21, 29],
+  "treeMiddle": [39, 46],
+  "treeHorizon": [166, 190],
+  "groundShadow": [12, 18],
+  "grass": {"detail": [28, 44], "detailFade": 4, "middle": [53, 76], "middleFade": 13, "field": [38, 73], "reserve": 8.4},
+  "flowerDetail": [16, 24],
+  "bluebellDetail": [24, 32],
+  "fernDetail": [13, 21],
+  "berryDetail": [22, 34],
+  "field": {"flowers": [32, 44], "fern": [27.5, 37.5], "ragwort": [26, 44], "bilberry": [39, 54]}
+}

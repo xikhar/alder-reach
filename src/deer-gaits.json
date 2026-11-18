@@ -1,0 +1,12 @@
+{
+  "Walk": {
+    "stride": 0.88,
+    "duty": 0.62,
+    "touchdown": {"hl": 0.00, "fl": 0.19, "hr": 0.50, "fr": 0.69}
+  },
+  "Bound": {
+    "stride": 2.50,
+    "duty": 0.23,
+    "touchdown": {"hl": 0.04, "hr": 0.09, "fl": 0.49, "fr": 0.54}
+  }
+}
